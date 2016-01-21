@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res/com.szugyi.circlemenu"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <!-- android:background="@drawable/bg_home" -->
+
+    <com.szugyi.circlemenu.view.CircleLayout
+        android:id="@+id/main_circle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="80"
+        circle:circleBackground="@drawable/color_circle"
+        circle:firstChildPosition="East"
+        circle:isRotating="true"
+        circle:rotateToCenter="true" >
+    </com.szugyi.circlemenu.view.CircleLayout>
+
+
+</RelativeLayout>
